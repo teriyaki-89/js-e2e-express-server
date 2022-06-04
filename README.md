@@ -27,3 +27,4 @@ This is a basic Express.js server used for JS Dev Experience documentation, in p
     ```bash
     npm start
     ```
+[![Build Status](https://dev.azure.com/idoskhozhayev/js-e2e-express-server/_apis/build/status/teriyaki-89.js-e2e-express-server?branchName=main)](https://dev.azure.com/idoskhozhayev/js-e2e-express-server/_build/latest?definitionId=1&branchName=main)
