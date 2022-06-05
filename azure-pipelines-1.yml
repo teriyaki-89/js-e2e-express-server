@@ -1,0 +1,19 @@
+resources:
+  containers:
+  - container: my_container
+    image: buildpack-deps:focal
+  - container: nginx
+    image: nginx
+
+
+pool:
+  vmImage: 'ubuntu-20.04'
+
+container: my_container
+services:
+  nginxPP: nginx
+
+steps:
+- script: |
+    curl nginxPP
+  displayName: Show that nginx is running
