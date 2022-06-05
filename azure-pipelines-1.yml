@@ -1,7 +1,7 @@
 resources:
   containers:
-  - container: my_container
-    image: buildpack-deps:focal
+  - container: postgres_13
+    image: postgres:13
   - container: nginx
     image: nginx
 
@@ -9,7 +9,7 @@ resources:
 pool:
   name: default
 
-container: my_container
+container: postgres_13
 services:
   nginxPP: nginx
 
