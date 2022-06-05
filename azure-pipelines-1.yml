@@ -4,6 +4,8 @@ resources:
     image: postgres:13
   - container: nginx
     image: nginx
+    ports:
+    - 80:80
 
 
 pool:
