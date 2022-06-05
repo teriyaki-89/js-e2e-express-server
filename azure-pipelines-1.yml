@@ -11,9 +11,9 @@ pool:
 
 container: postgres_13
 services:
-  nginxPP: nginx
+  nginx: nginx
 
 steps:
 - script: |
-    curl nginxPP
+    curl nginx
   displayName: Show that nginx is running
