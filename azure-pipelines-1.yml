@@ -17,7 +17,6 @@ strategy:
     postgres11:
       postgresService: pg11
 
-container: my_container
 
 services:
   postgres: $[ variables['postgresService'] ]
